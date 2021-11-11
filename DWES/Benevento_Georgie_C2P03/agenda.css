@@ -1,0 +1,55 @@
+body {
+  color: black;
+  background: rgb(131, 169, 241);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: rgb(131, 169, 241);
+  background-color: white;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  border: rgb(131, 169, 241) 7px double;
+}
+
+.err {
+  display: flex;
+  justify-content: center;
+  background: rgb(233, 73, 51);
+  padding: 5px;
+  margin-top: -25px;
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+.button {
+  background: rgb(211, 210, 210);
+  color: black;
+}
+
+.button:hover {
+  background: rgb(73, 73, 73);
+}
+
+h3 {
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: xx-large;
+}
+
+li span {
+  color: white;
+}
+
+li {
+  font-size: large;
+  padding-top: 10px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
