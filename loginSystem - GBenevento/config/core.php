@@ -5,7 +5,7 @@ session_start();
  
 date_default_timezone_set('Asia/Manila');
 
-$home_url="http://localhost/loginSystem/";
+$home_url="http://gbenevento.ddns.net/loginSystem/";
  
 $page = isset($_GET['page']) ? $_GET['page'] : 1;
 
