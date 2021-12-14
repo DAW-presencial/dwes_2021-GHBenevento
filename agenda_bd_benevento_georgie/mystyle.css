@@ -1,9 +1,48 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(38, 142, 211);
     padding: 0;
     margin: 0;
 }
 
-div{
+.container{
+    display: flex;
     padding: 3vh 3vw;
+}
+
+.form-container{
+    margin-right: 20vw;
+    margin-left: 10vw;
+}
+
+h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+input{
+    padding: 9px;
+    border: solid 1px rgb(255,255,255);
+    outline: 0;
+    width: 100%;
+    background: rgb(255,255,255);
+}
+
+label {
+    margin-left: 0px;
+    color: rgb(0,0,0);
+}
+
+button{
+    width: auto;
+    padding: 9px 15px;
+    background: rgb(144, 144, 144);
+    border: 0;
+    font-size: 14px;
+    color: rgb(255,255,255);
+}
+button:hover{
+background-color:  rgb(38, 211, 104);
+}
+
+.contact-container{
+    color: rgb(255,255,255);
 }

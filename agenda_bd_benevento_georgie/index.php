@@ -1,8 +1,8 @@
 <?php require 'header.php' ?>
-
-<div>
+<div class="container">
+<div class="form-container">
         <form id="form" method="POST" action="./includes/agenda.php">
-            <h2>My contacts</h2>
+            <h2>Contact operations</h2>
             <label for="name">Name:</label>
             <input id="name" name="name" type="text" required>
             <br>
@@ -17,8 +17,8 @@
         </form>
 </div>
 
-<div>
-    <h2>Contacts:</h2>
+<div class="contact-container">
+    <h2>All contacts</h2>
     <?php
     include 'includes/db.php';
     $sql = 'SELECT * FROM contacts;';
@@ -33,6 +33,7 @@
         }
     }
     ?>
+</div>
 </div>
 
 <?php require 'footer.php' ?>
